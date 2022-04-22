@@ -38,8 +38,6 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-If you recorded multiple GIFs for all the implemented features, you can add them here:
-
 ### Game Lost:
 
 ![](gif1-link-here)![](https://i.imgur.com/5nSNCKY.gif)
@@ -48,22 +46,29 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ![](gif2-link-here)![](https://i.imgur.com/UFUmOsN.gif)
 
-![](gif3-link-here)
-![](gif4-link-here)
 
 ## Reflection Questions
 
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
-   [YOUR ANSWER HERE]
+   
+   - The CodePath course for prework was more than sufficient for me to complete the submission. It had important information about the concepts along with hints to write my logic. 
+   
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
-   [YOUR ANSWER HERE]
+
+   - I had 2 bugs in my code, when (progess==3), I was going out of the program and "You lost" alert message was displayed. This took my most of the time to debug. I added a console log and realized that guessCounter is getting undefined during the execution. The reason for this was I had declared guessCounter again in the playSequence() method. On removing the declaring and just initalizing the counter worked.
+
+   - 2nd bug was after adding 5th button, 4th button was not lighting up. This was a silly typo. It was resolved quickly.
+
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
-   [YOUR ANSWER HERE]
+   - The execution flow, I still have trouble understanding the execution flow in Javascript. I am confortable in Java, as I like as we can see the flow. I wish I can get the same intuition with Javascript too. 
+   - I want to learn more how can host a website, as in the submission glitch made it easily available. How to do it without glitch would be a nice learning for me.
+
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
-   [YOUR ANSWER HERE]
+   - If I got few more hours to work on this, I am confident that I would be able to do all the optional features, speeding it up with each pass, using random secret pattern, giving player strikes, adding images and different sounds to button and adding a ticking clock.
+   - I also was wondering if I can convert the game to a different theme, making the buttons images and telling a story through the game maybe education users about climate change, when the click on the button show a before and now images of earth.
 
 ## Interview Recording URL Link
 
