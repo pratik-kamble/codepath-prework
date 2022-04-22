@@ -16,7 +16,11 @@ body {
   font-family: sans-serif;
   line-height: 1.5;
   
-  background-color: slategrey;
+  background-color: skyblue;
+  color: darkorange; 
+}
+
+p{
   color: white; 
 }
 
@@ -25,8 +29,12 @@ h1{
 }
 
 button{
+width:50px;
+height:50px;
 padding: 10px;
 border-radius: 10px;
+background: white;
+color: black; 
 }
 
 #gameButtonArea > button {
@@ -67,8 +75,16 @@ border-radius: 10px;
     background: lightyellow;
 }
 
-#button4:active, #button4.lit {
+#button4:active, #button5.lit {
     background:yellow;
+}
+
+#button5 {
+    background: grey;
+}
+
+#button5:active, #button5.lit {
+    background:black;
 }
 
 /* images and videos max out at full width */
