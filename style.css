@@ -75,7 +75,7 @@ color: black;
     background: lightyellow;
 }
 
-#button4:active, #button5.lit {
+#button4:active, #button4.lit {
     background:yellow;
 }
 
